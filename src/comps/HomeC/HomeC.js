@@ -18,7 +18,7 @@ function HomeC(props) {
                             impedit nesciunt, minima animi magnam eos iste sed repellendus! Lorem ipsum dolor sit amet
                             consectetur adipisicing elit. Rem aliquid debitis vitae earum dolor recusandae, quos
                             doloribus rerum, officiis eius illum impedit nesciunt, minima animi magnam eos iste sed
-                            repellendus!
+                            repellendus!.s
                         </div>
                     </div>
                     <div className="col-12 col-md-6 col-sm-12 col-lg-6">
