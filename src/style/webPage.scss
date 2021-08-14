@@ -1,0 +1,349 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.web-title {
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 55px;
+  margin-top: 15px;
+  padding-top: 15px;
+  color: #0A7F2E;
+}
+
+.web-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 35px;
+  margin-top: 20px;
+  color: #777777;
+}
+
+.web-sec-1 {
+  margin-top: 100px;
+
+  .sec-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #0A7F2E;
+  }
+
+  .sec-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 35px;
+    margin-top: 25px;
+    color: #777777;
+  }
+}
+
+.WepP-body {
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  .Af-img {
+    margin-left: 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    color: rgba(10, 127, 46, 0.03);
+  }
+
+  .Af-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 80px;
+    color: #0A7F2E;
+  }
+
+  .result {
+    display: flex;
+    margin-top: 80px;
+
+    .result-icon {
+      img {
+        transform: scale(0.8);
+      }
+    }
+
+    .result-info {
+      margin-left: 20px;
+
+      .result-title {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 40px;
+        /* identical to box height, or 133% */
+
+
+        color: #333333;
+      }
+
+      .result-text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 30px;
+        color: #777777;
+      }
+    }
+  }
+}
+
+.Techno {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px !important;
+  margin-left: 30px !important;
+  color: rgba(10, 127, 46, 0.03);
+}
+
+.techno-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 80px;
+  /* identical to box height, or 133% */
+
+
+  color: #0A7F2E;
+}
+
+.web-d {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  margin-top: 80px;
+  color: #000000;
+}
+
+.card-P {
+
+  margin-top: 30px;
+  margin-bottom: 100px;
+
+  .card-figma {
+    width: 100%;
+    height: 220px !important;
+
+    .img-p {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 70%;
+
+      img {
+        transform: scale(0.8);
+        margin-top: 10px;
+      }
+
+    }
+
+    margin-top: 12px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+
+    .text {
+      p {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 43px;
+        color: #201F1E;
+      }
+
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+.img-car {
+
+  width: 100%;
+  height: 385px;
+  filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+margin-bottom: 200px!important;
+  .hover-img {
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.7) 0%, rgba(10, 127, 46, 0.7) 98.58%);
+    width: 96%;
+    height: 100%;
+    border-radius: 10px;
+    top: 0;
+    left: -96%;
+    position: absolute;
+    transition: 1s;
+
+    .left-brend {
+      ul {
+        float: right;
+        margin-right: 15px;
+
+        li {
+          list-style-type: none;
+          margin-top: 15px;
+        }
+      }
+
+
+    }
+    .hover-text {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 31px;
+
+      color: #FFFFFF;
+      margin-top: 100%!important;
+      margin-left: 20px;
+      p {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        margin-top: 10px;
+        color: #FFFFFF;
+
+      }
+    }
+
+  }
+}
+
+.img-car:hover {
+  .hover-img {
+    left: 2%;
+    top: 0;
+    transition: 1s;
+
+  }
+}
+.slick-prev {
+
+  width: 70px!important;
+  height: 70px!important;
+  border: 3px solid #0A7F2E!important;
+  box-sizing: border-box;
+  border-radius: 5px;
+  z-index: 111!important;
+  top: 500px!important;
+  box-shadow: 0px 1px 4px rgba(16, 0, 0, 0.15);
+  left: 480px!important;
+display: none;
+  &:before {
+    content: url("../img/11.png")!important;
+
+
+  }
+}
+.slick-next {
+
+
+  width: 70px!important;
+  height: 70px!important;
+  border: 3px solid #0A7F2E!important;
+  box-sizing: border-box;
+  border-radius: 5px;
+  z-index: 111!important;
+  top: 500px!important;
+  box-shadow: 0px 1px 4px rgba(16, 0, 0, 0.15);
+right: 480px!important;
+  &:before {
+    content: url("../img/22.png")!important;
+
+
+  }
+}
+.slick-prev:hover{
+  background-color: rgba(10, 127, 46, 0.1)!important;
+}
+.slick-next:hover{
+  background-color:rgba(10, 127, 46, 0.1)!important; ;
+}
+
+
+@media screen and (max-width: 576px) {
+  .techno-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+
+
+    color: #0A7F2E;
+  }
+  .WepP-body {
+    margin-top: 100px;
+
+    .Af-img {
+      margin-left: 0px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 40px;
+      color: rgba(10, 127, 46, 0.03);
+    }
+
+    .Af-title {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      color: #0A7F2E;
+    }
+  }
+  .slick-prev {
+
+    width: 40px!important;
+    height: 40px!important;
+    border: 3px solid #0A7F2E!important;
+    box-sizing: border-box;
+    border-radius: 5px;
+    z-index: 111!important;
+    top: 500px!important;
+    box-shadow: 0px 1px 4px rgba(16, 0, 0, 0.15);
+    left: 0px!important;
+    display: none;
+    &:before {
+      content: url("../img/11.png")!important;
+
+
+    }
+  }
+  .slick-next {
+
+
+    width: 40px!important;
+    height: 40px!important;
+    border: 3px solid #0A7F2E!important;
+    box-sizing: border-box;
+    border-radius: 5px;
+    z-index: 111!important;
+    top: 500px!important;
+    box-shadow: 0px 1px 4px rgba(16, 0, 0, 0.15);
+    right: 70%!important;
+    &:before {
+      content: url("../img/22.png")!important;
+
+
+    }
+  }
+
+  .Techno {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px!important;
+    margin-left: 0px;
+    color: rgba(10, 127, 46, 0.03);
+  }
+}

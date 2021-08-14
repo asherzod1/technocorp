@@ -30,10 +30,10 @@ const NavbarPr = (props) => {
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
                         <NavItem>
-                            <NavLink to='/'>Xizmatlar</NavLink>
+                            <NavLink to='/xizmat'>Xizmatlar</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to='/'>Loyihalar</NavLink>
+                            <NavLink to='/web'>Loyihalar</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink to='/'>Biz haqimizda</NavLink>
